@@ -1,5 +1,5 @@
 """
-WSGI config for Portfoilio_Site project.
+WSGI config for Budget_App project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Portfoilio_Site.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Budget_App.settings')
 
 application = get_wsgi_application()
